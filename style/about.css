@@ -1,0 +1,74 @@
+#about .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+#about .leftHalf {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#about .rightHalf {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+#about .img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 300px;
+}
+
+#about .leftHalf .img {
+    margin-left: 5vw;
+    margin-right: 2.5vw;
+}
+
+#about .rightHalf .img {
+    margin-left: 2.5vw;
+    margin-right: 5vw;
+}
+
+#about .title {
+    font-size: 2em;
+    padding: 15px;
+}
+
+#about .leftHalf .title {
+    margin-left: 5vw;
+    margin-right: 2.5vw;
+}
+
+#about .rightHalf .title {
+    margin-left: 2.5vw;
+    margin-right: 5vw;
+}
+
+#about .subtitle {
+    opacity: 0.7;
+}
+
+#about .leftHalf .subtitle {
+    margin-left: 5vw;
+    margin-right: 2.5vw;
+}
+
+#about .rightHalf .subtitle {
+    margin-left: 2.5vw;
+    margin-right: 5vw;
+}
+
+#about .loadMore {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#about .loadMore span {
+    color: blue;
+    cursor: pointer;
+}
